@@ -1,0 +1,156 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url(/images/wbg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+#container{
+    width: 1350px;
+     /* border: 2px solid red;  */
+    margin: 0px auto;
+}
+#header{
+    height: 100px;
+    /* border: 2px solid red; */
+    padding: 10px 0px;
+}
+#logo{
+    float: left;
+}
+#logo h1 a{
+    float: left;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f23832;
+}
+#searchbox{
+    float: right;
+    background-color: rgb(20, 172, 223);
+    width: 500px;
+    height: 50px;
+    padding:20px 20px 0px 20px ;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+.text{
+    float: left;
+    font-weight: bold;
+    width: 350px;
+    padding: 5px;
+    font-size:15px;
+    color: rgb(79, 74, 74);
+    border: 1px solid rgb(238, 237, 237)n ;
+    border-radius: 5px;
+    background: #fff url(/images/search.png) no-repeat right center;
+   
+    
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.submit:hover{
+    font-size:15px;
+    color: black;
+    background-color: white;
+}
+#menu{
+    height: 30px;
+    background-color:rgb(20, 172, 223);
+    padding: 10px 0px;
+}
+#menu a{
+    padding: 0px 75px;
+   text-decoration: none;
+   color: antiquewhite;
+   text-transform: capitalize;
+   border-right: 2px solid antiquewhite;
+   font-size: 18px;
+   line-height: 30px;
+}
+ #menu a:last-child{
+    border-right: none;
+}
+#menu a:hover,#menu a:active{
+    color: red;
+    font-size: 19px;
+    font-weight: bolder;
+}
+#menu a.log{
+    color: red;
+}
+#intro{
+    background-color:rgb(132, 210, 236); 
+    padding: 30px;
+    margin: 15px 0px;
+}
+#intro h3{
+    font-size: 50px;
+    color: #000022;
+}
+#intro p{
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(109, 108, 108);
+}
+.sidebar{
+    width: 570px; 
+    height: 500px;
+    border:2px solid rgb(20, 172, 223);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar h3{
+    color:#511414;
+    font-size: 30px;
+}
+.sidebar ul{
+    padding: 30px;
+}
+
+#leftsb  li{
+    padding:5px 0px 5px 10px;
+    list-style-image: url(/images/checkbox.png);
+}
+#rightsb li{
+    padding: 20px 0px 20px 30px;
+    list-style-image: url(/images/background.png);
+}
+#leftsb{
+    float: left;
+}
+#rightsb{
+    float: right;
+}
+.sidebar ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #57565d;
+}
+.sidebar ul li a:hover{
+    color: rgb(20, 172, 223);
+    font-size: 22px;
+    font-weight: bold;
+}.clear{
+    clear: both;
+}
+#footer{
+    clear: both;
+    height: 50px;
+    background-color: rgb(20, 172, 223) ;
+    padding: 10px 0px;
+    margin-top: 20px;   
+}
+#footer p{
+    text-align: center;
+    color: white;
+   line-height: 25px;
+}
+
